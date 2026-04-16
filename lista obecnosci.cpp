@@ -109,7 +109,7 @@ int main() {
     int wybor;
     osoba katalog[10];
     int liczbaosob = 0;
-    ListaObecnosci listy[5];
+    ListaObecnosci listy[2];
     int liczbaList = 0;
     int aktywnaLista = -1;
     do {
@@ -140,7 +140,7 @@ int main() {
             cout<<"Dodano do katalogu."<<endl;
         }
         else if (wybor == 2) {
-            if(liczbaList < 5){
+            if(liczbaList < 2){
                 liczbaList++;
                 aktywnaLista = liczbaList-1;
                 cout<<"Utworzono liste nr "<<liczbaList<<endl;
